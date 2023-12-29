@@ -27,7 +27,7 @@ sudo chown pi /dev/ttyUSB0
 ```
 For more information, see [Verify that the user you run Zigbee2MQTT as has write access to the port](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html#verify-that-the-user-you-run-zigbee2mqtt-as-has-write-access-to-the-port).
 
-2 - Find and kill the user/process using the port:
+2 - Find and kill all the processes using the port:
 ``` sh
 sudo fuser -k /dev/ttyUSB0
 ```
