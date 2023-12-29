@@ -37,3 +37,6 @@ For more information, see [Verify that the user you run Zigbee2MQTT as has write
 ``` sh
 sudo fuser -k /dev/ttyUSB0
 ```
+
+### TIPS & TRICKS
+CHeck this [video](https://youtu.be/wgbCjs0yH4M?si=GkhC-g6RNbxEYoez)
