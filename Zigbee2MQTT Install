@@ -35,7 +35,7 @@ mqtt:
   # MQTT base topic for Zigbee2MQTT MQTT messages
   base_topic: zigbee2mqtt
   # MQTT server URL
-  server: 'mqtt://192.168.107.8:1883'
+  server: 'mqtt://localhost'
   # MQTT server authentication, uncomment if required:
   # user: mqtt
   # password: mqtt
