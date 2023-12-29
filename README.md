@@ -9,5 +9,5 @@ curl -sk https://raw.githubusercontent.com/DeamonCorpse/Homebridge/main/MQTT%20I
 ## INSTALL Zigbee2MQTT
 Run the following command:
 ```sh
-curl -sk https://raw.githubusercontent.com/DeamonCorpse/Homebridge/main/MQTT%20Install | sudo bash -
+curl -sk https://raw.githubusercontent.com/DeamonCorpse/Homebridge/main/Zigbee2MQTT%20Install | sudo bash -
 ```
