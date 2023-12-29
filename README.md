@@ -39,4 +39,4 @@ sudo fuser -k /dev/ttyUSB0
 ```
 
 ### TIPS & TRICKS
-CHeck this [video](https://youtu.be/wgbCjs0yH4M?si=GkhC-g6RNbxEYoez)
+Check this [video](https://youtu.be/wgbCjs0yH4M?si=GkhC-g6RNbxEYoez)
