@@ -15,6 +15,11 @@ Run the following command:
 curl -sk https://raw.githubusercontent.com/DeamonCorpse/Homebridge/main/Zigbee2MQTT%20Install | sudo bash -
 ```
 
+> **IMPORTANT**
+> After the Zigbee2MQTT install completes, the system will reboot.
+> BEFORE running `npm start`, you must 1st stop the mqtt service with `sudo systemctl stop zigbee2mqtt`
+> THEN run `npm start`
+
 #### Troubleshooting
 If you get [Resource temporarily unavailable Cannot lock port](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html#error-resource-temporarily-unavailable-cannot-lock-port):
 
