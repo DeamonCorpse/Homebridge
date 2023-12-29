@@ -1,6 +1,7 @@
 # Homebridge
 
 ## SETUP MQTT
+*ref: [video](https://youtu.be/efmsed9Aj-o?si=00LuOsp-vYOo1eDA)*
 ### INSTALL
 #### MQTT
 Run the following command:
