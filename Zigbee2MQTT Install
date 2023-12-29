@@ -5,7 +5,7 @@ echo "----------------------------------------------------------------"
 echo " "
 # Node setup
 sudo curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt-get install -y nodejs git make g++ gcc
+sudo apt install -y nodejs git make g++ gcc
 echo ">>>>> Node Installed <<<<<"
 # Z2M setup
 echo ">>>>> Clone Zigbee2MQTT repository <<<<<"
@@ -35,7 +35,7 @@ mqtt:
   # MQTT base topic for Zigbee2MQTT MQTT messages
   base_topic: zigbee2mqtt
   # MQTT server URL
-  server: 'mqtt://192.168.8.169:1883'
+  server: 'mqtt://192.168.107.8:1883'
   # MQTT server authentication, uncomment if required:
   # user: mqtt
   # password: mqtt
@@ -47,9 +47,9 @@ serial:
 
 frontend:
   # Optional, default 8080 or you can use your own as well.
-  port: 8080
+  port: 8085
   # IP address of the device running Zigbee2MQTT
-  host: 192.168.8.169
+  host: 192.168.107.8
 advanced:
   log_level: debug
   network_key: GENERATE
