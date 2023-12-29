@@ -40,3 +40,12 @@ sudo fuser -k /dev/ttyUSB0
 
 ### TIPS & TRICKS
 Check this [video](https://youtu.be/wgbCjs0yH4M?si=GkhC-g6RNbxEYoez)
+
+### UPDATE
+*ref: [Update Zigbee2MQTT to the latest version](https://www.zigbee2mqtt.io/guide/installation/01_linux.html#for-later-update-zigbee2mqtt-to-the-latest-version)*
+
+Run the following command:
+``` sh
+cd /opt/zigbee2mqtt
+./update.sh
+```
